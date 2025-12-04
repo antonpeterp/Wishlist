@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+  color: black;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  margin: 50px;
+}
+.container input {
+  text-align: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0;
+}
+.container button {
+  font-size: 32px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 300;
+}
+button:hover {
+  transition: 0.2s;
+  background-color: white;
+  color: black;
+}
+input[type="text"] {
+  width: 30%;
+  text-align: left;
+}
+.container2 {
+  margin: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+#display ul {
+  text-decoration: none;
+  list-style: none;
+}
+#display label {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+#display input[type="radio"] {
+  margin: 8px;
+  height: 22px;
+  width: 30px;
+}
+#deletebtn {
+  margin: 6px;
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 300;
+}
+#deletebtn:hover {
+  transition: 0.2s;
+  background-color: white;
+  color: black;
+}
+.striked {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
